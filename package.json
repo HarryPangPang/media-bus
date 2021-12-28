@@ -1,0 +1,55 @@
+{
+  "name": "media-bus",
+  "version": "1.0.3",
+  "description": "tranfor media file",
+  "main": "build/index.js",
+  "maintainers": [
+    "harryzhang"
+  ],
+  "module": "build/index.es.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryPangPang/media-bus.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/ffmpeg-static": "^3.0.0",
+    "@types/ms": "^0.7.31",
+    "@types/node-localstorage": "^1.3.0",
+    "@types/rimraf": "^3.0.2",
+    "rollup": "^2.57.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-dts": "^2.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "keywords": [
+    "mp3",
+    "amr",
+    "aud",
+    "avi",
+    "mp4"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HarryPangPang/media-bus/issues"
+  },
+  "homepage": "https://github.com/HarryPangPang/media-bus#readme",
+  "dependencies": {
+    "ffmpeg-static": "^4.4.0",
+    "rimraf": "^3.0.2"
+  }
+}
